@@ -1,7 +1,7 @@
 html {
     background-color: #38965d;
+    transition: 1.2s;
     font-family: 'Nunito Sans';
-    /* color: rgb(199, 255, 255); */
     color: #000;
 }
 ul {
@@ -18,8 +18,7 @@ li {
 }
 a {
     text-decoration: none;
-    /* color: rgb(199, 255, 255); */
-    color: #000
+    color: #000;
 }
 .pointer {
     cursor: pointer;
@@ -42,9 +41,9 @@ body {
     transition: 0.45s;
 }
 .work-button:hover {
-    background-color: #000;
+    background-color: #fff;
     color: #38965d;
-    border: 2px solid #000;
+    border: 3px solid #2eff77;
 }
 .menu-item {
     display: none;
@@ -57,7 +56,4 @@ body {
 .menu-item:hover {
     color: #fff;
     transition: 0.3s;
-}
-.gap20px {
-    gap: 20px;
 }
