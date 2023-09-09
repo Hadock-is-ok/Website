@@ -1,6 +1,5 @@
 html {
     background-color: #38965d;
-    transition: 1.2s;
     font-family: 'Nunito Sans';
     color: #000;
 }
@@ -47,8 +46,6 @@ body {
 }
 .menu-item {
     display: none;
-}
-.menu-item-style {
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -56,4 +53,12 @@ body {
 .menu-item:hover {
     color: #fff;
     transition: 0.3s;
+}
+.menu:hover {
+    filter: invert(1);
+    transition: 0.2s;
+}
+.icon:hover {
+    filter: brightness(50%) saturate(100%) invert(87%) sepia(99%) saturate(1%) hue-rotate(265deg) brightness(110%) contrast(97%);
+    transition: 0.4s;
 }
