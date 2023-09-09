@@ -1,12 +1,10 @@
 function handle_switch() {
     var list = document.getElementsByClassName("menu-item");
-    list.forEach(switch_display(item));
-}
-
-function switch_display(item) {
-    if (item.style.display === "none") {
-        item.style.display = "block";
-    } else {
-        item.style.display = "none";
+    for (var i = 0; i < list.length; i++) {
+        if (list[i].style.display === "none" || list[i].style.display === "") {
+            list[i].style.display = "inline";
+        } else {
+        list[i].style.display = "none";
+        }
     }
 }

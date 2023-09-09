@@ -14,7 +14,6 @@ ul {
 }
 li {
     display: inline;
-    text-decoration: none;
     font-size: xx-large;
 }
 a {
@@ -50,7 +49,15 @@ body {
 .menu-item {
     display: none;
 }
+.menu-item-style {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
 .menu-item:hover {
     color: #fff;
     transition: 0.3s;
+}
+.gap20px {
+    gap: 20px;
 }
