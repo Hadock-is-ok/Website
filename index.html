@@ -3,10 +3,7 @@
     <head>
         <title>Hadock Tech</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
-        <meta content="Hadock Tech" property="og:title">
-        <meta content="Hi, I'm Hadock." property="og:description">
-        <meta content="https://hadock.tech" property="og:url">
-        <meta name="theme-color" content="#38965d"> 
+        <link rel="alternate" type="application/json+oembed" href="oembed.json">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,600&display=swap" rel="stylesheet">
@@ -17,31 +14,31 @@
     </head>
     <body>
         <ul>
-            <ul style="gap: 20px;">
-                <menu style="display: flex; align-items: center; padding-inline-start: 10px;">
-                    <img src="/public/menu.svg" alt="Menu Button" class="pointer menu" height="50" width="50" onclick="handle_switch()">
+            <ul id="navbar">
+                <menu>
+                    <img src="/public/menu.svg" alt="Menu Button" id="menu" height="50" width="50" onclick="handle_switch()">
                     <li><a href="work.html" class="menu-item">My Work</a></li>
                     <li><a href="contact.html" class="menu-item">Contact</a></li>
                     <li><a href="about.html" class="menu-item">About</a></li>
                 </menu>
-                <a aria-label="Home Icon" href="index.html"><img src="/public/favicon.svg" class="home-button" alt="Home Button" witdh="60" height="60"></a>
+                <a aria-label="Home Icon" href="index.html"><img src="/public/favicon.svg" alt="Home Button" witdh="60" height="60"></a>
             </ul>
-            <div style="display: flex; align-items: center; justify-content: center; padding-right: 15px;">
+            <div id="contact-button">
                 <a href="contact.html"><button class="button">Contact</button></a>
             </div>
         </ul>
-        <p style="font-size: 5rem; text-align: center; font-family: 'Nunito Sans', sans-serif; margin: 2rem;">
+        <p>
             Hi, I'm Hadock.
         </p>
-        <ul style="display: flex; justify-content: center; gap: 15px;">
+        <ul id="iconbar">
             <a href="https://github.com/NightSlasher35"><img src="/public/github-icon.svg" alt="GitHub Icon" class="pointer icon" width="50px" height="50px"></a>
             <a href="https://discord.com/users/263602820496883712"><img src="/public/discord-icon.svg" alt="Discord Icon" class="pointer icon" width="53px" height="40px"></a>
             <a href="https://open.spotify.com/user/11155233882"><img src="/public/spotify-icon.svg" alt="Spotify Icon" class="pointer icon" width="50px" height="50px"></a>
         </ul>
-        <h1 style="font-size: 2rem; padding-top: 20px; text-align: center;">
+        <h1>
             I'm a young engineer looking to learn new things and improve my skills.<br>I'm currently working on a few projects, and always looking for new ideas.
         </h1>
-        <div style="display: flex; align-items: center; justify-content: center; padding-top: 10px;">
+        <div id="work-button">
             <a href="work.html"><button class="button">See More</button></a>
         </div>
     </body>

@@ -1,9 +1,7 @@
 html {
     background-color: #ddd;
     font-family: 'Nunito Sans';
-    color: #000;
-    margin: 0;
-    padding: 0;
+    color: #000
 }
 ul {
     list-style: none;
@@ -11,15 +9,29 @@ ul {
     display: flex;
     align-items: center;
     margin: 5px;
-    justify-content: space-between;
+    justify-content: space-between
 }
 li {
-    display: inline;
     font-size: xx-large;
+    display: inline
 }
-.pointer {
-    cursor: pointer;
+menu {
+    padding-inline-start: 10px;
+    display: flex;
+    align-items: center
 }
+h1 {
+    padding-top: 1.25rem;
+    text-align: center;
+    font-size: 2rem
+}
+p {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 2rem
+}
+
 .button {
     align-self: center;
     background-color: #ddd;
@@ -31,12 +43,12 @@ li {
     font-size: x-large;
     font-family: 'Nunito Sans';
     cursor: pointer;
-    transition: 0.45s;
+    transition: 0.45s
 }
 .button:hover {
     background-color: #000;
     color: #ddd;
-    border: 3px solid #ddd;
+    border: 3px solid #ddd
 }
 .menu-item {
     display: none;
@@ -44,13 +56,40 @@ li {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #000;
+    color: #000
 }
 .menu-item:hover {
     color: #fff;
-    transition: 0.3s;
+    transition: 0.3s
+}
+.pointer {
+    cursor: pointer
 }
 .icon:hover {
     filter: grayscale(1);
-    transition: 0.25s;
+    transition: 0.25s
+}
+
+#navbar {
+    gap: 20px
+}
+#menu {
+    cursor: pointer;
+}
+#iconbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px
+}
+#work-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px
+}
+#contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 15px
 }
