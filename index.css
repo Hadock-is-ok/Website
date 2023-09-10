@@ -1,7 +1,9 @@
 html {
-    background-color: #38965d;
+    background-color: #ddd;
     font-family: 'Nunito Sans';
     color: #000;
+    margin: 0;
+    padding: 0;
 }
 ul {
     list-style: none;
@@ -15,20 +17,12 @@ li {
     display: inline;
     font-size: xx-large;
 }
-a {
-    text-decoration: none;
-    color: #000;
-}
 .pointer {
     cursor: pointer;
 }
-body {
-    margin: 0;
-    padding: 0;
-}
-.work-button {
+.button {
     align-self: center;
-    background-color: #38965d;
+    background-color: #ddd;
     border-radius: 18px;
     border: 3px solid #000;
     color: #000;
@@ -39,44 +33,24 @@ body {
     cursor: pointer;
     transition: 0.45s;
 }
-.contact-button {
-    align-self: center;
-    background-color: #38965d;
-    border-radius: 18px;
-    border: 3px solid #000;
-    color: #000;
-    height: 50px; 
-    width: 150px;
-    font-size: x-large;
-    font-family: 'Nunito Sans';
-    cursor: pointer;
-    transition: 0.45s;
-}
-.work-button:hover {
-    background-color: #fff;
-    color: #38965d;
-    border: 3px solid #000;
-}
-.contact-button:hover {
-    background-color: #fff;
-    color: #38965d;
-    border: 3px solid #000;
+.button:hover {
+    background-color: #000;
+    color: #ddd;
+    border: 3px solid #ddd;
 }
 .menu-item {
     display: none;
     padding: 10px;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
+    color: #000;
 }
 .menu-item:hover {
     color: #fff;
     transition: 0.3s;
 }
-.menu:hover {
-    filter: invert(1);
-    transition: 0.2s;
-}
 .icon:hover {
-    filter: brightness(50%) saturate(100%) invert(87%) sepia(99%) saturate(1%) hue-rotate(265deg) brightness(110%) contrast(97%);
-    transition: 0.4s;
+    filter: grayscale(1);
+    transition: 0.25s;
 }
