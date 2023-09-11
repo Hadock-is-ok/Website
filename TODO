@@ -1,0 +1,5 @@
+- Finish dark mode toggle
+- Animate index.html better
+- Better background color
+- Find a way to globally apply favicon, title and font-family
+- Maybe reduce number of .css files and styles inside it (Try also to do max 1 stylesheet per page)
