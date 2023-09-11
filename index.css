@@ -21,7 +21,7 @@ menu {
     align-items: center
 }
 h1 {
-    padding-top: 1.25rem;
+    padding-top: 0.5rem;
     text-align: center;
     font-size: 2rem
 }
@@ -29,7 +29,7 @@ p {
     font-size: 5rem;
     text-align: center;
     font-family: 'Nunito Sans', sans-serif;
-    margin: 2rem
+    margin: 1rem
 }
 
 .button {
@@ -51,12 +51,26 @@ p {
     border: 3px solid #ddd
 }
 .menu-item {
-    display: none;
+    display: inline;
     padding: 10px;
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    color: #000
+    color: #000;
+    position: relative;
+}
+.menu-item:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 5px;
+    bottom: -1px;
+    background-color: #000;
+    border-radius: 30px;
+    transition: width 0.3s ease-in-out;
+}
+.menu-item:hover:before {
+    width: 90%;
 }
 .menu-item:hover {
     color: #fff;
@@ -73,8 +87,9 @@ p {
 #navbar {
     gap: 20px
 }
-#menu {
-    cursor: pointer;
+#home-icon:hover {
+    filter: invert(1);
+    transition: 0.25s;
 }
 #iconbar {
     display: flex;
