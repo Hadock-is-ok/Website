@@ -3,9 +3,6 @@
 Hi, welcome to my [website](https://hadock.tech) source.
 Now you might be wondering,
 
-## Hadock, why is your website source in your bot repo?
-To be honest, I'm a lazy piece of shit and still haven't got to moving it to my profile. The wonders of ADHD.
-
 ## Can I take this for myself?
 Absolutely, I just realized I haven't set a licence, but if I set one, it's gonna be MIT.\
 Do keep in mind I have 0 liability over your code, I don't know how to fix it. This is my first time doing web development.
